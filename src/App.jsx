@@ -1,16 +1,15 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { NotFound } from './pages/NotFound/NotFound';
-import { Home } from './pages/Home/Home';
-
+import React from "react";
+//components
+import { Header } from "./components/Header";
+import { MainContent } from "./components/MainContent";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />;
-        <Route path="/*" element={<NotFound />} />;
-      </Routes>
-    </div>
+    <section className="h-screen text-center my-10 text-primary flex flex-col">
+      <Header />
+      <MainContent />
+      <Footer />
+    </section>
   );
 };
