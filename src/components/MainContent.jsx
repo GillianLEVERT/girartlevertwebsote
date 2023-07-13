@@ -1,10 +1,6 @@
-import React from "react";
-
 export const MainContent = () => {
   return (
-    <section className="flex flex-col h-screen items-center justify-center">
-
-
+    <section className="flex flex-col items-center justify-center flex-grow">
       <div className="stats shadow stats-vertical md:stats-horizontal my-4">
         <div className="stat place-items-center">
           <div className="stat-title">Interventions</div>

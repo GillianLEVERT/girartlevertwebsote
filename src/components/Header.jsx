@@ -1,14 +1,12 @@
-import React from "react";
+//image
 import imgHero from "../assets/imghero.png";
-import imgBg from "../assets/bg.png";
 //icons
-
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 
 export const Header = () => {
   return (
-    <section className="">
+    <section className="mt-10">
       <div className="hero">
         <div className="hero-content flex-col rounded-lg ">
           <img
@@ -18,12 +16,12 @@ export const Header = () => {
           />
           <div>
             <h1 className="text-5xl font-bold">Girart LEVERT</h1>
-            <p className="py-6 font-semibold">
+            <p className="py-6 text-2xl font-semibold">
               Conseils en systèmes et logiciel informatiques et comptabilité
               pour les administrateurs de biens
             </p>
             <div className="hidden md:inline-block">
-              <p className="md:font-bold">Restons connectés :</p>
+              <p className="md:font-bold text-2xl">Restons connectés :</p>
               <div className="flex flex-row justify-center p-4 ">
                 <a
                   target="_blank"
@@ -38,7 +36,9 @@ export const Header = () => {
                   <div className="flex swap-off p-4 text-[20px]  justify-center">
                     <BsFillTelephoneFill />
                   </div>
-                  <div className="flex items-center swap-on">06.14.76.47.26</div>
+                  <div className="flex items-center swap-on">
+                    06.14.76.47.26
+                  </div>
                 </label>
 
                 <a

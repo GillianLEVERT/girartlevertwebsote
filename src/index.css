@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 * {
-    font-family: JetBrains Mono;
+    font-family: JetBrains Mono, serif, sans-serif;
   }
   

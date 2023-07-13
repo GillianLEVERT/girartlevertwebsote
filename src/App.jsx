@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
-    <section className="h-screen text-center mt-10 mb-4 text-primary flex flex-col">
+    <section className="text-center  text-primary flex flex-col min-h-screen">
       <Header />
       <MainContent />
       <Footer />
