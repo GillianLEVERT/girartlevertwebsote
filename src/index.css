@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 * {
-    font-family: JetBrains Mono, serif, sans-serif;
+    font-family: "JetBrains Mono", "Monda","Monda-fallback", serif, sans-serif;
   }
   
+
+  @font-face {
+    font-family: "Monda-fallback";
+    size-adjust: 107.69%;
+    src: local("Arial");
+}
+

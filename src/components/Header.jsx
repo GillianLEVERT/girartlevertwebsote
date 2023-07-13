@@ -26,17 +26,17 @@ export const Header = () => {
                 <a
                   target="_blank"
                   href="mailto:girart.levert@gmail.com"
-                  className="text-[22px] p-4  hover:text-secondary"
+                  className="text-[32px] p-4  hover:text-secondary"
                 >
                   <BsFillEnvelopeFill />
                 </a>
 
                 <label className="swap hover:text-green-600">
                   <input type="checkbox" name="tel" id="1" />
-                  <div className="flex swap-off p-4 text-[20px]  justify-center">
+                  <div className="flex swap-off p-4 text-[30px]  justify-center">
                     <BsFillTelephoneFill />
                   </div>
-                  <div className="flex items-center swap-on">
+                  <div className="flex items-center swap-on text-[20px]">
                     06.14.76.47.26
                   </div>
                 </label>
@@ -44,7 +44,7 @@ export const Header = () => {
                 <a
                   target="_blank"
                   href=" https://www.linkedin.com/in/girart-levert-b11b5b7b/"
-                  className="text-[20px] p-4  hover:text-secondary"
+                  className="text-[30px] p-4  hover:text-secondary"
                 >
                   <FaLinkedin />
                 </a>
