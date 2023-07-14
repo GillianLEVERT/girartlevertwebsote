@@ -9,7 +9,7 @@ export const MainContent = () => {
 
         <div className="stat place-items-center">
           <div className="stat-title text-primary text-xl">Expérience en entreprise</div>
-          <div className="stat-value">plus de 30ans</div>
+          <div className="stat-value">+  30ans</div>
         </div>
 
         <div className="stat place-items-center">

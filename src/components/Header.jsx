@@ -1,5 +1,5 @@
 //image
-import Logo from "../assets/logo2.png";
+import Logo from "../assets/logo.jpg";
 //icons
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
@@ -12,10 +12,10 @@ export const Header = () => {
           <img
             src={Logo}
             alt="Logo"
-            className="max-w-sm rounded-full object-fill h-[200px] md:h-[280px] p-4"
+            className="max-w-sm rounded-full object-fill h-[300px] md:h-[400px] p-4"
           />
           <div>
-            <h1 className="text-5xl font-bold">Girart LEVERT</h1>
+  
             <p className="py-6 text-2xl font-semibold">
               Conseils en systèmes et logiciel informatiques et comptabilité
               pour les administrateurs de biens
