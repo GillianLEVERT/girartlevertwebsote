@@ -1,5 +1,5 @@
 //image
-import imgHero from "../assets/imghero.png";
+import Logo from "../assets/logo2.png";
 //icons
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
@@ -10,8 +10,8 @@ export const Header = () => {
       <div className="hero">
         <div className="hero-content flex-col rounded-lg ">
           <img
-            src={imgHero}
-            alt="imgHero"
+            src={Logo}
+            alt="Logo"
             className="max-w-sm rounded-full object-fill h-[200px] md:h-[280px] p-4"
           />
           <div>
@@ -25,9 +25,10 @@ export const Header = () => {
               <div className="flex flex-row justify-center p-4 ">
                 <a
                   target="_blank"
-                  href="mailto:girart.levert@gmail.com"
+                  href="mailto:
+                  girartpro@gmail.com"
                   aria-label="Lien vers email"
-                  className="text-[32px] p-4  hover:text-secondary"
+                  className="text-[32px] p-4  hover:text-blue-100"
                 >
                   <BsFillEnvelopeFill />
                 </a>
@@ -46,7 +47,7 @@ export const Header = () => {
                   target="_blank"
                   href=" https://www.linkedin.com/in/girart-levert-b11b5b7b/"
                   aria-label="Lien vers Linkedin"
-                  className="text-[30px] p-4  hover:text-secondary"
+                  className="text-[30px] p-4 text-primary hover:text-blue-100"
                 >
                   <FaLinkedin />
                 </a>
@@ -58,11 +59,12 @@ export const Header = () => {
                 <li>
                   <a
                     target="_blank"
-                    href="mailto:girart.levert@gmail.com"
+                    href="mailto:
+                    girartpro@gmail.com"
                     aria-label="Lien vers email"
                   >
                     <BsFillEnvelopeFill />
-                    girart.levert@gmail.com
+                    girartpro@gmail.com
                   </a>
                 </li>
                 <li>
