@@ -26,6 +26,7 @@ export const Header = () => {
                 <a
                   target="_blank"
                   href="mailto:girart.levert@gmail.com"
+                  aria-label="Lien vers email"
                   className="text-[32px] p-4  hover:text-secondary"
                 >
                   <BsFillEnvelopeFill />
@@ -44,6 +45,7 @@ export const Header = () => {
                 <a
                   target="_blank"
                   href=" https://www.linkedin.com/in/girart-levert-b11b5b7b/"
+                  aria-label="Lien vers Linkedin"
                   className="text-[30px] p-4  hover:text-secondary"
                 >
                   <FaLinkedin />
@@ -54,7 +56,11 @@ export const Header = () => {
               <summary className="m-1 btn">restons connectés :</summary>
               <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box">
                 <li>
-                  <a target="_blank" href="mailto:girart.levert@gmail.com">
+                  <a
+                    target="_blank"
+                    href="mailto:girart.levert@gmail.com"
+                    aria-label="Lien vers email"
+                  >
                     <BsFillEnvelopeFill />
                     girart.levert@gmail.com
                   </a>
@@ -68,6 +74,7 @@ export const Header = () => {
                   <a
                     target="_blank"
                     href=" https://www.linkedin.com/in/girart-levert-b11b5b7b/"
+                    aria-label="Lien vers Linkedin"
                   >
                     {" "}
                     <FaLinkedin />

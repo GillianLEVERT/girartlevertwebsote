@@ -3,17 +3,17 @@ export const MainContent = () => {
     <section className="flex flex-col items-center justify-center flex-grow">
       <div className="stats shadow stats-vertical md:stats-horizontal my-4">
         <div className="stat place-items-center">
-          <div className="stat-title">Interventions</div>
+          <div className="stat-title  text-primary text-xl">Interventions</div>
           <div className="stat-value">31K</div>
         </div>
 
         <div className="stat place-items-center">
-          <div className="stat-title">Expérience en entreprise</div>
-          <div className="stat-value text-primary">plus de 30ans</div>
+          <div className="stat-title text-primary text-xl">Expérience en entreprise</div>
+          <div className="stat-value">plus de 30ans</div>
         </div>
 
         <div className="stat place-items-center">
-          <div className="stat-title">Clients satisfaits</div>
+          <div className="stat-title  text-primary text-xl">Clients satisfaits</div>
           <div className="stat-value">999+</div>
         </div>
       </div>
