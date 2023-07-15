@@ -40,7 +40,7 @@ export const Header = () => {
                     <BsFillTelephoneFill />
                   </div>
                   <div className="flex items-center swap-on text-[20px]">
-                    06.14.76.47.26
+                    06.14.67.47.26
                   </div>
                 </label>
 
@@ -69,8 +69,8 @@ export const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+33614764726">
-                    <BsFillTelephoneFill /> 06.14.76.47.26
+                  <a href="tel:+33614674726">
+                    <BsFillTelephoneFill /> 06.14.67.47.26
                   </a>
                 </li>
                 <li>
