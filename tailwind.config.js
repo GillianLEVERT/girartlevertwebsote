@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero' :"url('./assets/bg.png')"
+        'bg' :"url('./assets/bg.png')"
       }
     }
     ,
@@ -14,11 +14,11 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#594E26",
-          secondary: "#4472CA",
+          primary: "#A40C0C",
+          secondary: "#000000",
           accent: "#012ec1",
           neutral: "#272934",
-          "base-100": "#F0F0F0",
+          "base-100": "#A6A6A6",
           info: "#69a4e8",
           success: "#22d383",
           warning: "#b36f0f",

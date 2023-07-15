@@ -4,9 +4,10 @@ import { Header } from "./components/Header";
 import { MainContent } from "./components/MainContent";
 import { Footer } from "./components/Footer";
 
+
 export const App = () => {
   return (
-    <section className="text-center  text-primary flex flex-col min-h-screen">
+    <section className="text-center  text-primary flex flex-col min-h-screen bg-bg bg-cover">
       <Header />
       <MainContent />
       <Footer />

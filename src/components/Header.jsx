@@ -1,8 +1,9 @@
 //image
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo2.png";
 //icons
 import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
+
 
 export const Header = () => {
   return (
@@ -28,7 +29,7 @@ export const Header = () => {
                   href="mailto:
                   girartpro@gmail.com"
                   aria-label="Lien vers email"
-                  className="text-[32px] p-4  hover:text-blue-100"
+                  className="text-[32px] p-4  hover:text-[#A6A6A6]"
                 >
                   <BsFillEnvelopeFill />
                 </a>
@@ -47,7 +48,7 @@ export const Header = () => {
                   target="_blank"
                   href=" https://www.linkedin.com/in/girart-levert-b11b5b7b/"
                   aria-label="Lien vers Linkedin"
-                  className="text-[30px] p-4 text-primary hover:text-blue-100"
+                  className="text-[30px] p-4 text-primary hover:text-[#A6A6A6]"
                 >
                   <FaLinkedin />
                 </a>
